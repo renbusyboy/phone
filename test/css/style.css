@@ -1,7 +1,7 @@
 *{list-style:none;margin:0px;padding:0px;box-sizing:border-box;}
 html{font-size:20px;}
 input{-webkit-appearance:none;}
-body{font-family: "微软雅黑";overflow:hidden;width:100%;}
+body{font-family: "微软雅黑";overflow:hidden;width:100%;background:#f00;}
 header img{width:100%;}
 section{padding-left:1rem;}
 section h3{font-size:1.5rem;text-align:center;color:#77a157;padding:1rem 0 1rem 0;}
