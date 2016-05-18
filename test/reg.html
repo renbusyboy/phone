@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalabel=no">
+	<title>会员注册</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<header>
+	<img src="images/banner.jpg"/>
+</header>
+
+<section>
+	<h3>会员注册</h3>
+	<ul>
+		<li><label>姓名：</label><input type="text"/></li>
+		<li><label>手机：</label><input type="text"/></li>
+		<li><label>省：</label><select><option></option></select></li>
+		<li><label>城市：</label><select><option></option></select></li>
+		<li><label>区：</label><select><option></option></select></li>
+		<li><label>详细地址：</label><input type="text"/></li>
+		<li><label>宝宝生日：</label><input type="text"/></li>
+		<li><label>微信号：</label><input type="text"/></li>
+		<li><label>密码：</label><input type="password"/></li>
+		<li><label>确认密码：</label><input type="password"/></li>
+	</ul>
+	<a href="javascript:;" class="reg" id="reg">注册</a>	
+</section>
+<footer>
+	<a href="javascript:;"><img src="images/jifen.jpg"></b>积分商城</a>
+	<a href="javascript:;"><img src="images/huiyuan.jpg"></b>会员中心</a>
+	<a href="javascript:;"><img src="images/help.jpg"></b>帮助中心</a>
+</footer>
+</body>
+<script src="js/jquery-1.12.3.min.js"></script>
+<script>
+window.onload=window.onresize=function(){
+	document.documentElement.style.fontSize=document.documentElement.clientWidth/640*20+'px';	
+};
+//普通弹窗提示
+function showalert (text, type) {
+    var flg_class = (type == 1) ? 'suc' : 'fail',
+        html = '<div class="valert ' + flg_class + '"><div class="alert_bg"><div class="alert_text">' + text + '</div></div></div>';
+    $ ("body").append (html);
+   
+    $(".valert").css("margin-left",-$(".valert").outerWidth()/2);
+    var t = setTimeout (function () {
+       $ (".valert").fadeOut (1000);
+    }, 1000);
+    var s = setTimeout (function () {
+       $ (".valert").remove ();
+    }, 2000);
+}
+$("#reg").click(function(){
+	showalert("密码输入错误");
+});		
+</script>
+</html>
