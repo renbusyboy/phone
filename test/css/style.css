@@ -5,7 +5,7 @@ header img{width:100%;}
 section{padding-left:1rem;}
 section h3{font-size:1.5rem;text-align:center;color:#77a157;padding:1rem 0 1rem 0;}
 section label{font-size:1.4rem;width:7.3rem;display: inline-block;text-align:right;}
-section input{width:60%;height:3rem;font-size:1.2rem;padding-left:5px;border:1px solid #f0f0f0;background:#f0f0f0;margin-bottom:1.6rem;}
+section input{width:60%;height:3rem;font-size:1.2rem;padding-left:5px;border:1px solid #ddd;background:#f0f0f0;margin-bottom:1.6rem;}
 section select{width:9.8rem;height:3.5rem;margin-bottom:1.6rem;}
 section .reg{width:80%;height:3.5rem;font-size:2rem;color:#fff;display: block;text-align:center;text-decoration:none;background:#acc59d;border-radius:5px;margin:0 auto;line-height:3.5rem;}
 footer a{display: inline-block;width:32%;text-align:center;font-size:1.5rem;text-decoration:none;color:#5a9837;padding:4.6rem 0 1.2rem 0;}
